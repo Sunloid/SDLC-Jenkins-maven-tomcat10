@@ -13,8 +13,12 @@ Continuous Deployment (CI/CD) pipeline. The pipeline automates the process of bu
 
 4. **Github**: GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
 
+5. **AWS**: Amazon Web Services, Inc. is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling.
+
 
 ## Features: 
 1. Automated build and testing using Jenkins and maven.
 2. Continuous Integration pipeline for Java based web application.
 3. Automated deployment on Tomcat server.  
+
+## Project Structure: 
