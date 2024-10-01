@@ -1,10 +1,10 @@
-**###SDLC Pipeline with Jenkins, Maven, and Tomcat**
+# SDLC Pipeline with Jenkins, Maven, and Tomcat
 
-##**overview**: 
+## overview: 
 This project demonstrates the implementation of Software Development Life Cycle (SDLC) using Jenkins, Maven, Tomcat for a Continuous Integration and 
 Continuous Deployment (CI/CD) pipeline. The pipeline automates the process of building, testing and deploying a Jave-based web application.
 
-##**Key components**: 
+## Key components: 
 1. **Jenkins**: Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration. For this project Jenkins will be present in the Dev server and will be reponsible extracting the source code from the VCS (Github) and then packaging the source code into a .war file and sending it to the QA server for testing. 
 
 2. **Maven**: Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information. For this particular project maven will be present in the Dev server alongside Jenkins. 
