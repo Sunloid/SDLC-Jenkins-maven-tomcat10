@@ -1,4 +1,4 @@
-###**SDLC Pipeline with Jenkins, Maven, and Tomcat**
+**###SDLC Pipeline with Jenkins, Maven, and Tomcat**
 
 ##**overview**: 
 This project demonstrates the implementation of Software Development Life Cycle (SDLC) using Jenkins, Maven, Tomcat for a Continuous Integration and 
