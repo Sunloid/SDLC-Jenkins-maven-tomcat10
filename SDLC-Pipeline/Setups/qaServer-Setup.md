@@ -31,8 +31,19 @@ Now we add a new role to the tomcat and give ourself the admin perms. For that r
 *nano tomcat-users.xml*
 
 add the following text over there: 
+
 *<user username="sunloid" password="admin" roles="manager-script,manager-gui,manager-status">*
+Remember the username and password fields 
+
 ![Alt text](<Desktop Screenshot 2024.10.02 - 13.53.36.28.png>)
+
+Now restart tomcat10 by executing the command: 
+
+*systemctl restart tomcat10*
+
+Now use the public IP address of this instance and connect to the tomcat10 UI on the port 8080: 
+![Alt text](<Desktop Screenshot 2024.10.02 - 13.59.12.75.png>)
+
 
 
 
