@@ -4,10 +4,10 @@ A development server in an SDLC pipeline is an environment where developers can 
 ## Setup:
 
 Launch a instance with the name of dev-server with ubuntu linux and t2.micro.
-![Alt text](image.png)
+![Alt text](s2.png)
 
 Give the following inbound rules to its security group
-![Alt text](image-1.png)
+![Alt text](s3.png)
 
 Connect to the instance and run the following commands:
 
@@ -34,11 +34,11 @@ systemctl start jenkins
 
 
 These commmands install Maven, Java and Jenkins in the Dev server. The final command will start the jenkins. Now use the public IP of this instance on the port 8080. 
-![Alt text](<Desktop Screenshot 2024.10.02 - 10.41.57.80 (2).png>)
+![Alt text](<s4.png>)
 
 The password asked above can be found on the bash itself or in the /root/.jenkins/secrets/initialAdminPassword .
 ![image info](<s1.png>)
 
 After entering the password let jenkins download the suggested plugins. 
-![Alt text](<Desktop Screenshot 2024.10.02 - 10.46.53.95.png>)
+![Alt text](<s5.png>)
 
