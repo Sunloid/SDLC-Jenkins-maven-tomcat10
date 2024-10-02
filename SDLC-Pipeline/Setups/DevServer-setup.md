@@ -37,7 +37,7 @@ These commmands install Maven, Java and Jenkins in the Dev server. The final com
 ![Alt text](<Desktop Screenshot 2024.10.02 - 10.41.57.80 (2).png>)
 
 The password asked above can be found on the bash itself or in the /root/.jenkins/secrets/initialAdminPassword .
-![image info](<SDLC-Pipeline\Setups\ss\Desktop Screenshot 2024.10.02 - 10.39.48.05.png>)
+![image info](<s1.png>)
 
 After entering the password let jenkins download the suggested plugins. 
 ![Alt text](<Desktop Screenshot 2024.10.02 - 10.46.53.95.png>)
