@@ -1,1 +1,0 @@
-# Working of the SDLC pipeline 

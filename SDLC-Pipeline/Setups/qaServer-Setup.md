@@ -32,7 +32,7 @@ Now we add a new role to the tomcat and give ourself the admin perms. For that r
 
 add the following text over there: 
 
-*< user username="sunloid" password="admin" roles="manager-script,manager-gui,manager-status">*
+*< user username="sunloid" password="admin" roles="manager-script,manager-gui,manager-status"/>*
 Remember the username and password fields 
 
 ![Alt text](<s9.png>)
