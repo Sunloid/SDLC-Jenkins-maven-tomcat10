@@ -1,5 +1,12 @@
 # Quality Assurance server:
-A QA (Quality Assurance) server in the SDLC (Software Development Life Cycle) pipeline is a dedicated environment where software is tested to ensure it meets quality standards. It's used to identify bugs, validate features, and verify that the software works as intended before it's moved to production. This server simulates the production environment and helps ensure the software is stable, functional, and meets user requirements. The QA server consists of Apache tomcat10. 
+A QA (Quality Assurance) server in the SDLC (Software Development Life Cycle) pipeline is a dedicated environment where software is tested to ensure it meets quality standards. It's used to identify bugs, validate features, and verify that the software works as intended before it's moved to production. This server simulates the production environment and helps ensure the software is stable, functional, and meets user requirements.  
+
+# Production Server: 
+In the Software Development Life Cycle (SDLC) pipeline, a production server is the environment where the final version of the software is deployed and made available to end users. It is the "live" server that handles real user traffic and transactions.
+
+The production server comes after all previous stages like development, testing, and staging. Before software reaches production, it is developed, tested, and validated in these earlier stages to ensure quality and stability. 
+
+The QA and Production server consists of apache tomcat10. They have the same setup but different applications and used in the pipeline. 
 
 ## Setup: 
 Launch a EC2 instance with the name of QA-server with the AMI of ubuntu linux. 
