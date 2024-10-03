@@ -40,3 +40,29 @@ Add another post build action of **Archive the aritfacts** and write the name of
 ![Alt text](<Desktop Screenshot 2024.10.03 - 12.42.33.63.png>)
 
 Now click on apply and save. 
+
+Now go to the dashboard and create a new job with the name of Deployment and make it freestyle again. 
+![Alt text](<Desktop Screenshot 2024.10.03 - 14.05.30.81.png>)
+
+Under the Source Code Management select Git give this repository as the source. 
+*https://github.com/Sunloid/test-repo2*
+These are the test scripts. 
+
+Under the Build Section use the **Copy artifacts from another projects** and mention the previous projects name which is **Testing**. 
+![Alt text](<Desktop Screenshot 2024.10.03 - 14.15.55.66.png>)
+
+Then under the post build actions select the **Deploy the .ear/.war to a container** option. 
+Fill the sections as shown and for the tomcat URL use the pricate IP address of the Prod server with the port no. 8080. For eg: http://(Prod server Private IP):8080
+![Alt text](<Desktop Screenshot 2024.10.03 - 14.18.15.41.png>)
+
+This time for credentials use the username and password for the Prod server. In my case its: 
+- username: sunloid
+- password: admin
+![Alt text](<Desktop Screenshot 2024.10.03 - 14.17.31.36 (2).png>)
+
+Then press apply and save. 
+
+Go back to the Testing Project and scroll down to the post-build actions and select **Build other projects** options. In there write the name of the **Deploying** project.
+![Alt text](<Desktop Screenshot 2024.10.03 - 14.27.04.08.png>)
+
+As usual apply and save. 
