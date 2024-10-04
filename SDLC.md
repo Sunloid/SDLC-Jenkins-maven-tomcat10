@@ -11,4 +11,5 @@ In DevOps, SDLC is enhanced through automation, continuous integration, and clos
 integrates SDLC phases such as development, testing, and deployment into a continuous, streamlined process. This results in faster delivery, better 
 quality, and quick feedback loops, with key practices like Continuous Integration/Continuous Deployment (CI/CD) playing a central role. DevOps essentially 
 transforms SDLC into a more dynamic and collaborative framework for modern software development.
+
 ![Alt text](SDLC.png)

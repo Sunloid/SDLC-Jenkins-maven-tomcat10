@@ -6,7 +6,7 @@ In the Software Development Life Cycle (SDLC) pipeline, a production server is t
 
 The production server comes after all previous stages like development, testing, and staging. Before software reaches production, it is developed, tested, and validated in these earlier stages to ensure quality and stability. 
 
-The QA and Production server consists of apache tomcat10. They have the same setup but different applications and used in the pipeline. 
+The QA and Production server consists of apache tomcat10. They have the same setup but different applications and uses in the pipeline. 
 
 ## Setup: 
 Launch a EC2 instance with the name of QA-server with the AMI of ubuntu linux. 

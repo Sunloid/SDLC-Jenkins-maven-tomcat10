@@ -1,4 +1,6 @@
 # The working of the SDLC pipeline
+The working of this particular SDLC pipeline is simple, automated and easy to operated. It contains 3 servers(Development, Quality Assurance and Production server) on 3 instances on AWS EC2. Each instances has components and different uses. Development server contains Maven and Jenkins, Quality Assurance and Production server consists of Apache tomcat. The beginning the Code is committed by the developer in the Github repository. That same Github repository with the help of GitSCM pulling triggers a build in the jenkins which compiles it into a .war file. In the same build as a post build option the .war file is sent into the tomcat of the QA server for testing the code. If the build is stable then the build 
+
 
 First we need to install the required plugins in Jenkins to run this pipeline 
 Go to Jenkins Manage > plugins > Available plugins and search the following plugins and install them. 
