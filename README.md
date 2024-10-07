@@ -22,4 +22,4 @@ Continuous Deployment (CI/CD) pipeline. The pipeline automates the process of bu
 3. Automated deployment on Tomcat server.  
 
 ## Project Structure: 
-![Alt text](y1.png)
+![Alt text](y.png)
