@@ -10,10 +10,10 @@ The QA and Production server consists of apache tomcat10. They have the same set
 
 ## Setup: 
 Launch a EC2 instance with the name of QA-server with the AMI of ubuntu linux. 
-![Alt text](<s6.png>)
+![Alt text](<r6.png>)
 
 The inbound rules of the Instance should be: 
-![Alt text](<s7.png>)
+![Alt text](<r7.png>)
 
 Connect to the instance and run the following commands: 
 
@@ -28,7 +28,7 @@ Connect to the instance and run the following commands:
 The final command installs the tomcat10 on this instance. To check the status of tomcat run this command: 
 
 *systemctl status tomcat10* 
-![Alt text](<s8.png>)
+![Alt text](<r8.png>)
 If tomcat is running then go to the next step if not try restarting the instance. 
 
 Now we add a new role to the tomcat and give ourself the admin perms. For that run the following commands: 
@@ -42,14 +42,14 @@ add the following text over there:
 *< user username="sunloid" password="admin" roles="manager-script,manager-gui,manager-status"/>*
 Remember the username and password fields 
 
-![Alt text](<s9.png>)
+![Alt text](<r9.png>)
 
 Now restart tomcat10 by executing the command: 
 
 *systemctl restart tomcat10*
 
 Now use the public IP address of this instance and connect to the tomcat10 UI on the port 8080: 
-![Alt text](<s10.png>)
+![Alt text](<r10.png>)
 
 
 
